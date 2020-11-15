@@ -1,0 +1,2 @@
+com/example/camerafilter/BuildConfig.java
+ com.example.camerafilter.BuildConfig
