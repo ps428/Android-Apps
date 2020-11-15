@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2C376E"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/text_view_layouts"
         android:text="@string/hi_there_this_is_a_basic_camera_filter_application"
+        android:textColor="#EDF3BA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -25,6 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="144dp"
         android:text="Go to next Activity"
+        android:textColor="#000000"
+        app:backgroundTint="#F4ECA1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />

@@ -12,7 +12,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[QKEA55MN6PAUVKWS]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -31,7 +31,7 @@
         <option value="Pranav" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1kIw4WRhyXNauZUrgCeigf1Wha0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-1643087476">
@@ -151,18 +151,26 @@
       <screen x="54" y="27" width="1306" height="741" />
     </state>
     <state x="246" y="27" width="912" height="741" key="CommitChangelistDialog2/54.27.1306.741@54.27.1306.741" timestamp="1605406785328" />
-    <state x="478" y="141" width="472" height="520" key="FileChooserDialogImpl" timestamp="1605405826417">
+    <state x="478" y="141" width="472" height="527" key="FileChooserDialogImpl" timestamp="1605407082711">
       <screen x="54" y="27" width="1306" height="741" />
     </state>
-    <state x="478" y="141" width="472" height="520" key="FileChooserDialogImpl/54.27.1306.741@54.27.1306.741" timestamp="1605405826417" />
-    <state x="550" y="297" width="313" height="285" key="Github.ShareDialog" timestamp="1605406806225">
+    <state x="478" y="141" width="472" height="527" key="FileChooserDialogImpl/54.27.1306.741@54.27.1306.741" timestamp="1605407082711" />
+    <state x="550" y="297" width="313" height="285" key="Github.ShareDialog" timestamp="1605410948141">
       <screen x="54" y="27" width="1306" height="741" />
     </state>
-    <state x="550" y="297" width="313" height="285" key="Github.ShareDialog/54.27.1306.741@54.27.1306.741" timestamp="1605406806225" />
-    <state x="196" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1605406816209">
+    <state x="550" y="297" width="313" height="285" key="Github.ShareDialog/54.27.1306.741@54.27.1306.741" timestamp="1605410948141" />
+    <state x="196" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1605430173388">
       <screen x="54" y="27" width="1306" height="741" />
     </state>
-    <state x="196" y="31" width="1022" height="737" key="SettingsEditor/54.27.1306.741@54.27.1306.741" timestamp="1605406816209" />
+    <state x="196" y="31" width="1022" height="737" key="SettingsEditor/54.27.1306.741@54.27.1306.741" timestamp="1605430173388" />
+    <state x="478" y="312" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605407745467">
+      <screen x="54" y="27" width="1306" height="741" />
+    </state>
+    <state x="478" y="312" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/54.27.1306.741@54.27.1306.741" timestamp="1605407745467" />
+    <state x="370" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1605407642978">
+      <screen x="54" y="27" width="1306" height="741" />
+    </state>
+    <state x="370" y="88" width="672" height="678" key="search.everywhere.popup/54.27.1306.741@54.27.1306.741" timestamp="1605407642978" />
     <state x="540" y="191" width="324" height="419" key="svn.repositoryBrowser" timestamp="1605405684906">
       <screen x="54" y="27" width="1306" height="741" />
     </state>
