@@ -1,5 +1,7 @@
 package com.example.camerafilter
 
+import android.Manifest.permission.CAMERA
+import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.*
@@ -29,6 +31,7 @@ class CaptureImageOrSaveIt : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_capture_image_or_save_it)
+        //val i = CAMERA_REQUEST_CODE  working here but nor in manually created functions
 
         saveImage.setOnClickListener(object : View.OnClickListener{
             override fun onClick(v: View?) {
@@ -38,44 +41,41 @@ class CaptureImageOrSaveIt : AppCompatActivity() {
             }})
 
         captureImage.setOnClickListener(object : View.OnClickListener{
-
             override fun onClick(v: View?) {
-                //Your code here
+                //code here
                 askForCameraPermission()
             }})
 
     }
 
     fun askForCameraPermission(){
-      /* @Suppress("DEPRECATED_IDENTITY_EQUALS")
-        if(ContextCompat.checkSelfPermission(this@MainActivity, Manifest.permission.CAMERA)!==PackageManager.PERMISSION_GRANTED){
 
-             ActivityCompat.requestPermissions(this, String[] {Manifest.permission.CAMERA}, CAMERA_ACCESS_CODE )
-            ActivityCompat.requestPermissions(this@MainActivity, arrayOf(Manifest.permission.CAMERA), CAMERA_REQUEST_CODE)
+        //Getting errors on Manifest.permission part...."permission" is in red
+       /* if(ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)!=PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.CAMERA), CAMERA_REQUEST_CODE)
         }
         else {
-            ActivityCompat.requestPermissions(this@MainActivity, arrayOf(Manifest.permission.CAMERA), CAMERA_REQUEST_CODE)
+            openCamera()
         }*/
     }
     }
 
-    fun openCamera(){
-
-        val  intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+    fun openCamera() {
+        val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         //startActivityForResult(intent, CAMERA_REQUEST_CODE)
     }
 
-   /* override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
+    fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
 
-        if(data!=null){
+        if (requestCode == CAMERA_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
 
             val bitmap = data.extras.
             bitmap = convertToGreyScale(bitmap)
             image.setImageBitmap(bitmap)
 
         }
-    }*/
+    }
+
 
     fun convertToGreyScale (originalBitmap: Bitmap): Bitmap{
 
